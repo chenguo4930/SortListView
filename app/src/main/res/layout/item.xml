@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/catalog"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#F4F4F4"
+        android:textSize="15sp"
+        android:textColor="#494949"
+        android:paddingLeft="16dp"
+        android:text="A"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:textColor="#494949"
+        android:paddingLeft="16dp"
+        android:textSize="15sp"
+        android:text="深圳"/>
+
+</LinearLayout>
